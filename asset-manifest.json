@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/resort-sainte-marie/static/css/main.b9651c68.css",
+    "main.js": "/resort-sainte-marie/static/js/main.78598e58.js",
+    "static/js/787.67266bc9.chunk.js": "/resort-sainte-marie/static/js/787.67266bc9.chunk.js",
+    "index.html": "/resort-sainte-marie/index.html",
+    "main.b9651c68.css.map": "/resort-sainte-marie/static/css/main.b9651c68.css.map",
+    "main.78598e58.js.map": "/resort-sainte-marie/static/js/main.78598e58.js.map",
+    "787.67266bc9.chunk.js.map": "/resort-sainte-marie/static/js/787.67266bc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9651c68.css",
+    "static/js/main.78598e58.js"
+  ]
+}
