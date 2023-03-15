@@ -1,38 +1,428 @@
-.App {
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  background-color: #020a0f;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 1.5px 1.5px rgb(218, 205, 205);
+  bottom: 82%;
+}
+
+nav a {
+  color: rgb(243, 240, 240);
+  text-decoration: none;
+  padding: 0.7rem;
+  font-size: 1.4em;
+  margin: 0px 50px;
+}
+
+nav a:hover {
+  background-color: #2c91c6;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.book {
+  border: 2px solid;
+  border-color: aqua;
+  padding: 1px
+}
+
+.nextNav {
+  border: 0px solid;
+  border-color: black;
+  padding: 1px;
+  
+}
+
+/* Homepage */
+
+.cta {
+  list-style-type: none;
+  color: red
+}
+
+.beach{
+  max-width: 100%;
+  
+}
+.containerPic {
   text-align: center;
+  color: rgb(214, 255, 8);
+  
+}
+.saint{
+  position: absolute;
+  top: 10%;
+  right: 35%;
+  font-weight:800;
+  font-size: 200%;
+  margin: 50px;
+  color: white;
+}
+#hero {
+  padding: 100px;
+  text-align: center;
+  display: inline-block
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.couple {
+  width: 40%;
+  float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#about {
+  padding: 100px;
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#about:not(.couple){
+  text-align: center;
+  padding: 20px;
+}
+
+.fleur {
+  height: 250px;
+}
+
+#rooms{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
+}
+
+#rooms:not(.resortroom) {
+  text-align: center;
+  padding: 50px;
+}
+
+.resortroom {
+  width: 50%;
+  padding: 2%;
+  
+}
+
+i {
+  padding: 20px;
+}
+
+/* Rooms Page (Book now) */
+
+.rooms-mainpic {
+  width: 100%;
+  max-height: 800px
+}
+
+.acco {
+  text-align: center;
+  padding: 7%;
+}
+
+/* slide-images */
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 500px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.standard-room-slide div {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.luxury-room-slide div {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.penthouse-slide div {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* calendar */
+
+.react-calendar { 
+  width: 400px;
+  max-width: 100%;
+  background-color: #ffffff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+ }
+ .react-calendar__navigation button {
+  color: #6f48eb;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+ }
+ .react-calendar__navigation button:enabled:hover,
+ .react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+ }
+ abbr[title] {
+  text-decoration: none;
+ }
+
+ .react-calendar__tile:enabled:hover,
+ .react-calendar__tile:enabled:focus {
+  background: #f8f8fa;
+  color: #6f48eb;
+  border-radius: 6px;
+ }
+ .react-calendar__tile--now {
+  background: #6f48eb33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #6f48eb;
+ }
+ .react-calendar__tile--now:enabled:hover,
+ .react-calendar__tile--now:enabled:focus {
+  background: #6f48eb33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #6f48eb;
+ }
+ .react-calendar__tile--hasActive:enabled:hover,
+ .react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa;
+ }
+ .react-calendar__tile--active {
+  background: #6f48eb;
+  border-radius: 6px;
+  font-weight: bold;
   color: white;
+ }
+ .react-calendar__tile--active:enabled:hover,
+ .react-calendar__tile--active:enabled:focus {
+  background: #6f48eb;
+  color: white;
+ }
+ .react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__tile--range {
+  background: #f8f8fa;
+  color: #6f48eb;
+  border-radius: 0;
+ }
+ .react-calendar__tile--rangeStart {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #6f48eb;
+  color: white;
+ }
+ .react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #6f48eb;
+  color: white;
+ }
+
+
+.app{
+  margin-left: 5%;
+  border: solid black;
+  /*display: flex;
+ flex-wrap: wrap; */
+  width: 28%;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.calendar-container {
+  flex-basis: 10%;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*booking details */
+
+.booking-details{
+  position: relative;
+  top: 0;
+  left: calc(0% + 20px);
+  width: 90%;
+  padding: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.appAfterSubmit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Activities Page */
+
+.activitiesHeader {
+  margin-top: 15%;
+  text-align: center;
+}
+
+ .image-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+
+.act-h1 {
+  color:#6f48eb
+}
+
+.description {
+  margin-right: 80px; 
+  padding: 5%;
+  color: black;
+}
+
+.actImage{
+  max-width: 30%;
+  border-radius: 50%
+}
+
+/* Dining */
+
+.buffet {
+  width: 100%;
+  height: 800px
+}
+
+.diningHeader {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 1px 1px #ccc;
+}
+
+.diningDescription {
+  margin-bottom: 20px;
+  padding: 2%;
+  font-size: 22px;
+  color: black;
+  text-shadow: 1px 1px #ccc;
+  border-bottom: solid black;
+}
+
+.flag {
+  max-width: 20%;
+  border: solid black;
+  margin-left: 5%;
+}
+
+.cuisine {
+  padding: 5%;
+}
+
+.card--body {
+  border-bottom: solid black;
+  margin: 5%;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+.contactMain{
+  margin-top: 20%
+}
+
+/* contact */
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0ffe0;
+  border-radius: 5px;
+  border: 1px solid #80c080;
+  color: #007f00;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007f00;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #005200;
 }
