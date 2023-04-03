@@ -18,7 +18,12 @@ function ContactUs() {
     };
   
     return (
-      <div className="contact-us">
+
+    <main>
+        <img className="contactBackground" src="https://cdn.pixabay.com/photo/2018/05/28/22/11/message-in-a-bottle-3437294_1280.jpg" />
+
+
+        <div className="contact-us">
         <h1>Contact Us</h1>
         {success ? (
           <div className="success-message">
@@ -56,6 +61,7 @@ function ContactUs() {
           </form>
         )}
       </div>
+    </main>
     );
   }
   

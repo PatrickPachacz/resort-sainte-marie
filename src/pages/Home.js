@@ -30,7 +30,7 @@ export default function Home(){
                 <p>Choose from a variety of room types, each designed with your comfort in mind. All of our rooms feature private balconies with ocean views, and some even include private pools.</p>
                 <img src="https://media.cntraveler.com/photos/53dad1ca6dec627b14a0502f/master/w_1024,h_768,c_limit/four-seasons-langkawi-malaysia-108963-3.jpg" alt="resort-room" className="resortroom"/>
             </section>
-   
+            <video src="/ocean.mp4" autoPlay loop className="ocean"></video>
    
         </main>
  
