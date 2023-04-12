@@ -23,7 +23,7 @@
   <p>1. Dates for occupancy</p>
   <p>2. Number of persons in party</p>
   <p>3. Room selection</p>
-<p> After selections are provided, the booking details are prompted in full to generate below the calendar. The booking details include:</p>
+* After selections are provided, the booking details are prompted in full to generate below the calendar. The booking details include:</p>
   <p>1. Check-in/Check-out dates</p>
   <p>2. Number of persons</p>
   <p>3. Room Type</p>
