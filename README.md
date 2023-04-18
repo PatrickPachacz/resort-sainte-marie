@@ -35,3 +35,5 @@
 <img src="screenshot.png"/>
 <h2>Booking Page</h2>
 <img src="screenshot2.png"/>
+<h2>Booking Page with dates selected - booking details available</h2>
+<img src="screenshot3.png"/>
