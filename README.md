@@ -29,7 +29,7 @@
   <p>3. Room Type</p>
   <p>4. Price per night (Standard Room: $50 / Luxury Room: $100 / Penthouse: $150)</p>
   <p>5. Total cost based on selections chosen</p>
-
+  <p>6. Dates before current date cannot be selected</p>
 # Screenshots
 <h2>Homepage</h2>
 <img src="screenshot.png"/>
