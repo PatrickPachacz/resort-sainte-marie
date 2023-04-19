@@ -13,6 +13,7 @@
 * Navbar includes selection of options to choose.
 * React-router-dom package added to bind pages using React-Router
 
+
 # Book-now
 * Slideshow of available rooms in hotel:
   <p>1. Standard Room</p>
@@ -30,6 +31,12 @@
   <p>4. Price per night (Standard Room: $50 / Luxury Room: $100 / Penthouse: $150)</p>
   <p>5. Total cost based on selections chosen</p>
   <p>6. Dates before current date cannot be selected</p>
+  
+# Contact Page
+* Name / Email / Message inputs
+* Prompts response when message is recieved with all requirements completed
+
+
 # Screenshots
 <h2>Homepage</h2>
 <img src="screenshot.png"/>
@@ -37,3 +44,5 @@
 <img src="screenshot2.png"/>
 <h2>Booking Page with dates selected - booking details available</h2>
 <img src="screenshot3.png"/>
+<h2>Contact Page</h2>
+<img src="screenshot-contact.png" />
