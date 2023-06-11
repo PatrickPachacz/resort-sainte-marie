@@ -20,7 +20,7 @@ function ContactUs() {
     return (
 
     <main>
-        <img className="contactBackground" src="https://cdn.pixabay.com/photo/2018/05/28/22/11/message-in-a-bottle-3437294_1280.jpg" />
+        <img className="contactBackground" src="https://cdn.pixabay.com/photo/2018/05/28/22/11/message-in-a-bottle-3437294_1280.jpg" alt="Description of the image" />
 
 
         <div className="contact-us">
