@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# About
+<p> Provides information and access to booking through a caribbean resorts personal website. The resort is named "Sainte Marie"</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Overview of website
+* Homepage / Navbar
+* Book-now
+* Activities
+* Dining
+* Contact
 
-## Available Scripts
+# Homepage/Navbar
+* Opening page to site that provides brief description of resort.
+* Navbar includes selection of options to choose.
+* React-router-dom package added to bind pages using React-Router
 
-In the project directory, you can run:
 
-### `npm start`
+# Book-now
+* Slideshow of available rooms in hotel:
+  <p>1. Standard Room</p>
+  <p>2. Luxury Room</p>
+  <p>3. Penthouse</p>
+* Interactive calendar:
+  <p>Allows user to select:</p>
+  <p>1. Dates for occupancy</p>
+  <p>2. Number of persons in party</p>
+  <p>3. Room selection</p>
+* After selections are provided, the booking details are prompted in full to generate below the calendar. The booking details include:</p>
+  <p>1. Check-in/Check-out dates</p>
+  <p>2. Number of persons</p>
+  <p>3. Room Type</p>
+  <p>4. Price per night (Standard Room: $50 / Luxury Room: $100 / Penthouse: $150)</p>
+  <p>5. Total cost based on selections chosen</p>
+  <p>6. Dates before current date cannot be selected</p>
+  
+# Contact Page
+* Name / Email / Message inputs
+* Prompts response when message is recieved with all requirements completed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Screenshots
+<h2>Homepage</h2>
+<img src="screenshot.png"/>
+<h2>Booking Page</h2>
+<img src="screenshot2.png"/>
+<h2>Booking Page with dates selected - booking details available</h2>
+<img src="screenshot3.png"/>
+<h2>Contact Page</h2>
+<img src="screenshot-contact.png" />
