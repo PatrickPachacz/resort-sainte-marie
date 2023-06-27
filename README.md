@@ -39,10 +39,12 @@
 
 # Screenshots
 <h2>Homepage</h2>
-<img src="screenshot.png"/>
+<img src="screenshots/screenshot.png"/>
 <h2>Booking Page</h2>
-<img src="screenshot2.png"/>
+<img src="screenshots/screenshot2.png"/>
 <h2>Booking Page with dates selected - booking details available</h2>
-<img src="screenshot3.png"/>
+<img src="screenshots/screenshot3.png"/>
 <h2>Contact Page</h2>
-<img src="screenshot-contact.png" />
+<img src="screenshots/screenshot-contact.png"/>
+
+
