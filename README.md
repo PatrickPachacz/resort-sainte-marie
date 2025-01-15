@@ -1,3 +1,5 @@
+# Holiday Resort web application
+
 # About
 <p> Provides information and access to booking through a caribbean resorts personal website. The resort is named "Sainte Marie"</p>
 
